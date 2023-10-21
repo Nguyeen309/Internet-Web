@@ -1,0 +1,38 @@
+html {
+    font-family: Arial, sans-serif;
+    background-image: url("background.gif");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+body {
+    max-width: 628px;
+    margin: auto;
+    padding: 3rem;
+}
+
+p {
+    color: white;
+    font-size: 0.8rem;
+    margin-right: 10rem;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p.foot {
+    color: gray;
+    margin-top: 10rem;
+    padding-bottom: 2rem;
+    font-size: 0.7rem;
+    text-align: justify;
+}
+
+.foot span {
+    color: red;
+    font-weight: normal;
+    text-decoration: underline;
+}
