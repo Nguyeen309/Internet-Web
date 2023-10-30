@@ -1,64 +1,76 @@
 h1 {
-    color: red;
+  color: red;
 }
-body{
-    background-repeat: repeat-x;
-    background-size: 33.33%;
-    background-image: url('nguyen-tac-trong-thiet-ke-do-hoa.jpg');
-    height: 30%;
+
+body {
+  background-repeat: repeat-x;
+  background-size: 33.33%;
+  background-image: url('nguyen-tac-trong-thiet-ke-do-hoa.jpg');
+  height: 30%;
 }
+
 p {
-    text-align: center;
-    font-size: 30px;
-    color: lime;
-    padding-top: 10%;
-    font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: lime;
+  padding-top: 10%;
 }
+
 table {
-    margin-left: 30%;
-    position: relative;
-    width: 40%;
-    border-collapse: separate;
-    border: 5px solid lime;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  th, td {
-    border: 1px solid lime;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-  }
-  thead {
-    border: 3px solid white;
-    padding: 5px;
-    text-align: center;
-    color: white;
-    background-color: lime;
-    font-weight: bold;
-  }
-  tbody {
-    border: 3px solid white;
-    padding: 5px;
-    text-align: center;
-    color: black;
-    text-align: left;
-  }
-  .r1, .r3, .r5, .r7{
-    background-color: white;
-  }
-  .r2, .r4, .r6 {
-    background-color: aqua;
-  }
-  .r8 {
-    background-color: orange;
-  }
-  .c1 {
-    text-align: left;;
-  }
-  img {
-    padding-left: 10%;
-    position: absolute;
-    float: left;
-    padding-top: 10%;
-    width: max-content;
-  }
+  width: 40%;
+  margin-left: 30%;
+  position: relative;
+  border-collapse: separate;
+  border: 5px solid lime;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th, td {
+  border: 1px solid lime;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+thead {
+  border: 3px solid white;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: lime;
+  font-weight: bold;
+}
+
+tbody {
+  border: 3px solid white;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  text-align: left;
+}
+
+.r1, .r3, .r5, .r7 {
+  background-color: white;
+}
+
+.r2, .r4, .r6 {
+  background-color: aqua;
+}
+
+.r8 {
+  background-color: orange;
+}
+
+.c1 {
+  text-align: left;
+  ;
+}
+
+img {
+  padding-left: 10%;
+  position: absolute;
+  float: left;
+  padding-top: 10%;
+  width: max-content;
+}

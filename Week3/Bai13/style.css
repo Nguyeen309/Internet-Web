@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font: Arial, Helvetica, sans-serif;
+}
+
+table, tr, td {
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 10px 5px;
+    background-color: lemonchiffon;
+    color: blue;
+}
+
+tr td:first-of-type {
+	width: 250px;
+}
+
+tr td:last-of-type {
+	width: 400px;
+}
+
+tr:first-of-type td:last-of-type input {
+    width: 250px;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+}
+
+select {
+    width: 200px;
+}
+
+fieldset legend {
+    text-align: start;
+}
+
+fieldset {
+    width: fit-content;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+td[colspan="2"] {
+    text-align: center;
+}
+
+.success {
+    color: red;
+    font-weight: bold;
+}
