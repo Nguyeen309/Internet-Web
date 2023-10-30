@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký du lịch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>ĐĂNG KÝ DU LỊCH</h1>
+    <form class="form">
+        <table>
+            <tr>
+                <td>Họ tên</td>
+                <td>
+                    <input type="text" maxlength="250">
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td>
+                    <textarea></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td>
+                    <input type="text" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>Khách Việt Nam</td>
+                <td>
+                    <input type="checkbox" name="KhachVietNam" id="KhachVietNam">
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn tour</td>
+                <td>
+                    <select>
+                        <option value="Phú Quốc Côn Đảo">Phú Quốc Côn Đảo</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phương tiện</td>
+                <td>
+                    <input type="radio" name="phuongtien" id="maybay">
+                    <label for="maybay">Máy bay</label>
+                    <input type="radio" name="phuongtien" id="xedulich">
+                    <label for="xedulich">Xe du lịch</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Số lượng đoàn khách</legend>
+                        <label for="nguoilon">Người lớn</label>
+                        <input type="text" id="nguoilon">
+                        <label for="treem">Trẻ em</label>
+                        <input type="text" id="treem">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú thêm</td>
+                <td>
+                    <textarea></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button>Đồng ý</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="success">Bạn đã đăng ký thành công!!!</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
