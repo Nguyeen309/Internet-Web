@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0px 100px;
+}
+
+.items {
+    padding: 10px 10px;
+}
+
+button {
+    margin-left: auto;
+    background-color: white;
+    padding: 10px 10px;
+}

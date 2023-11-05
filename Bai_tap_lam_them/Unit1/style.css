@@ -1,0 +1,20 @@
+.container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12%;
+}
+
+span {
+    color: blue;
+    font-weight: 750px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 8px;
+}

@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	gap: 100px;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url("stars.webp") no-repeat;
+	background-size: cover;
+	justify-content: center;
+	padding: 100px;
+}
+
+h1 {
+	font-weight: normal;
+	margin-top: 40px;
+}
+
+img {
+    width: 70px;
+    height: 60px;
+}
+
+.info {
+	color: yellow;
+}

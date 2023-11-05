@@ -1,0 +1,17 @@
+.container {
+    background-image: url("coffee.jpg");
+    text-align: center;
+    color: white;
+    padding: 100px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: 0px;
+}
