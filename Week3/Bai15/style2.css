@@ -1,0 +1,75 @@
+header {
+    background-image: url("nen-hoa-co.jpg");
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+	background: url("bg-mucluc.png") no-repeat;
+	height: 570px;
+	background-size: 100% 100%, contain;
+}
+
+.menu {
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    background-image: url("nen-menu.png");
+    background-size: 100% 100%, 100% 100%;
+    background-position: center, bottom;
+    padding: 80px 80px;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.nen {
+    margin-top: -350px;
+    width: 300px;
+}
+
+.content {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-style: italic;
+}
+
+.right-column {
+    flex: 4;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0.5rem;
+}
+
+p {
+    background: url("co-vietnam.png") no-repeat center top;
+}
+
+.map {
+    float: left;
+    margin-right: 1rem;
+}
+
+.quadiacau {
+    float: right;
+    margin-left: 1rem;
+    width: 15%;
+}
+
+.DropCap {
+    float: left;
+}

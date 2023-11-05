@@ -1,0 +1,89 @@
+header {
+    background-image: url("nen-hoa-co.jpg");
+    padding: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header h1 {
+	color: white;
+	text-align: center;
+	text-shadow: purple 3px 3px 3px;
+}
+
+.container {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+	background: url("bg-mucluc.png") no-repeat;
+	height: 570px;
+	background-size: 100% 100%, contain;
+}
+
+.menu {
+    color: white;
+    font-weight: bold;
+    background-image: url("nen-hoa-muc-luc.png");
+    background-size: 100% 100%, 100% 100%;
+    background-position: center, bottom;
+    font-size: 16px;
+    margin-top: 0;
+    height: 570px;
+    padding-top: 10px;
+}
+
+.menu li {
+    background-image: url("nen-lien-ket-muc-luc.png");
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 25px ;
+}
+
+.right-column {
+    flex: 4;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.title {
+    background-color: #feccff;
+	padding: 10px;
+	font-size: 45px;
+	color: deeppink;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content {
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+p {
+	font-style: italic;
+}
+
+.p-1 {
+	color: blue;
+}
+
+.p-2 {
+	color: purple;
+}
+
+.p-3 {
+	color: green;
+}
+
+hr {
+    width: 400px;
+    background-color: black;
+}
