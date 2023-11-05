@@ -7,6 +7,89 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    <form>
+        <table>
+            <tr>
+                <td class="text">
+                    Họ tên:
+                </td>
+                <td>
+                    <input class="input" type="text" name="name" maxlength="50" value="" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="text">
+                    Địa chỉ:
+                </td>
+                <td>
+                    <textarea class="input" rows="4" cols="50" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="text">
+                    Điện thoại:
+                </td>
+                <td>
+                    <input class="input" type="text" name="phone" maxlength="10" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="text">
+                    Giới tính:
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender" value="female" checked>
+                    <label for="female">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="text">
+                    Nghề nghiệp:
+                </td>
+                <td>
+                    <select class="input">
+						<option value="1" selected="selected">Giáo viên</option>
+						<option value="2">Kỹ sư</option>
+						<option value="3">Bác sĩ</option>
+						<option value="4">Khác</option>
+					</select>
+                </td>
+            </tr>
+            <tr>
+                <td class="text">
+                    Chọn sản phẩm tham gia:
+                </td>
+                <td>
+                    <select class="input" size="4" multiple="multiple">
+						<option value="1">Kem đánh răng</option>
+						<option value="2" selected="selected">Bột giặt</option>
+						<option value="3">Dầu gội đầu</option>
+						<option value="4" selected="selected">Sữa tắm</option>
+					</select>
+                </td>
+            </tr>
+            <tr>
+                <td class="text">
+                    Số người dự đoán tham gia:
+                </td>
+                <td>
+                    <input class="input" maxlength="20" type="text" name="number" value="30000">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input class="button" type="button" name="accept" value="Đồng ý" onclick="displayText.innerHTML='<p>Bạn đã đăng ký thành công!!!</p>'">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <label id="displayText" />
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
