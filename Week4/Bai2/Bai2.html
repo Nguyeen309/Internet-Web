@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đóng góp ý kiến sản phẩm</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>ĐÓNG GÓP Ý KIẾN SẢN PHẨM</h2>
+    <form id="feedbackForm">
+        <table>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Họ và tên" required id="fullName" name="fullName">
+                </td>
+                <td>
+                    <input type="text" id="cardNumber" name="cardNumber" required placeholder="Mã thẻ">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="phoneNumber" name="phoneNumber" required placeholder="Số điện thoại">
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="customerType" name="customerType">
+                        <option value="Chọn loại khách hàng" selected>Chọn loại khách hàng</option>
+                        <option value="Khách hàng thông thường">Khách hàng thông thường</option>
+                        <option value="Khách hàng VIP">Khách hàng VIP</option>
+                        <option value="Khách hàng 1">Khách hàng 1</option>
+                        <option value="Khách hàng 2">Khách hàng 2</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" id="invoiceCode" name="invoiceCode" required placeholder="Mã hóa đơn">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea id="description" name="description" rows="4" required placeholder="Chi tiết miêu tả"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="submitForm()">GỬI GÓP Ý</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
