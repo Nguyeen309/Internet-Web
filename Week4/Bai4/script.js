@@ -1,7 +1,7 @@
 function calculateBMI() {
     var weight = parseFloat(document.getElementById('weight').value);
     var height = parseFloat(document.getElementById('height').value);
-    var ageGroup = document.getElementById('ageGroup').value;
+    var age = document.getElementById('age').value;
 
     if (isNaN(weight) || isNaN(height) || weight <= 0 || height <= 0) {
         alert('Vui lòng nhập cân nặng và chiều cao hợp lệ.');
@@ -13,7 +13,7 @@ function calculateBMI() {
 
     var recommendation = '';
 
-    switch (ageGroup) {
+    switch (age) {
         case 'Trung niên':
             recommendation = 'Khám định kỳ';
             break;
