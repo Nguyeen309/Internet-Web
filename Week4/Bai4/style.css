@@ -29,8 +29,7 @@ label {
     margin-bottom: 8px;
 }
 
-input,
-select {
+input, select {
     width: 250px;
     padding: 10px;
     margin-left: 20px;
@@ -47,11 +46,7 @@ button {
     margin-left: 40%;
 }
 
-button:hover {
-    background-color: #45a049;
-}
-
-#result {
+#ketqua {
     margin-top: 10px;
     text-align: center;
 }

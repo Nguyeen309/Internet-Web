@@ -18,8 +18,7 @@ label {
     margin-bottom: 8px;
 }
 
-input,
-select {
+input, select {
     width: 500px;
     padding: 10px;
     margin-bottom: 15px;
@@ -40,8 +39,4 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-}
-
-#result {
-    margin-top: 20px;
 }

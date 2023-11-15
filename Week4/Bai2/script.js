@@ -1,21 +1,21 @@
 function submitForm() {
     
-    var fullName = document.getElementById('fullName').value;
-    var cardNumber = document.getElementById('cardNumber').value;
-    var phoneNumber = document.getElementById('phoneNumber').value;
+    var hoten = document.getElementById('hoten').value;
+    var card = document.getElementById('card').value;
+    var phone = document.getElementById('phone').value;
     var email = document.getElementById('email').value;
-    var invoiceCode = document.getElementById('invoiceCode').value;
-    var customerType = document.getElementById('customerType').value;
-    var description = document.getElementById('description').value;
+    var maHD = document.getElementById('maHD').value;
+    var loaiKH = document.getElementById('loaiKH').value;
+    var mota = document.getElementById('mota').value;
 
-    var resultMessage = 'Thông tin đã nhập:\n';
-    resultMessage += 'Họ tên: ' + fullName + '\n';
-    resultMessage += 'Mã thẻ: ' + cardNumber + '\n';
-    resultMessage += 'Số điện thoại: ' + phoneNumber + '\n';
-    resultMessage += 'Email: ' + email + '\n';
-    resultMessage += 'Mã hóa đơn: ' + invoiceCode + '\n';
-    resultMessage += 'Loại khách hàng: ' + customerType + '\n';
-    resultMessage += 'Chi tiết mô tả: ' + description;
+    var ketqua = 'Thông tin đã nhập:\n';
+    ketqua += 'Họ tên: ' + hoten + '\n';
+    ketqua += 'Mã thẻ: ' + card + '\n';
+    ketqua += 'Số điện thoại: ' + phone + '\n';
+    ketqua += 'Email: ' + email + '\n';
+    ketqua += 'Mã hóa đơn: ' + maHD + '\n';
+    ketqua += 'Loại khách hàng: ' + loaiKH + '\n';
+    ketqua += 'Chi tiết mô tả: ' + mota;
 
-    alert(resultMessage);
+    alert(ketqua);
 }

@@ -4,32 +4,32 @@ function calculateBMI() {
     var age = document.getElementById('age').value;
 
     if (isNaN(weight) || isNaN(height) || weight <= 0 || height <= 0) {
-        alert('Vui lòng nhập cân nặng và chiều cao hợp lệ.');
+        alert('Nhập lại!!!');
         return;
     }
 
     var bmi = weight / Math.pow(height, 2);
-    var bmiStatus = getBMIStatus(bmi);
+    var bmiStatus = Trangthai(bmi);
 
-    var recommendation = '';
+    var khuyennghi = '';
 
     switch (age) {
         case 'Trung niên':
-            recommendation = 'Khám định kỳ';
+            khuyennghi = 'Khám định kỳ';
             break;
         case 'Trung niên, Già lớn tuổi':
-            recommendation = 'Tập thể dục thường xuyên';
+            khuyennghi = 'Tập thể dục thường xuyên';
             break;
         case 'Già, lớn tuổi':
-            recommendation = 'Hạn chế ăn mỡ động vật';
+            khuyennghi = 'Hạn chế ăn mỡ động vật';
             break;
     }
 
-    var resultMessage = bmi.toFixed(2) + '\n' + bmiStatus + '\n' + recommendation;
-    document.getElementById('result').innerText = resultMessage;
+    var ketqua = bmi.toFixed(2) + '\n' + bmiStatus + '\n' + khuyennghi;
+    document.getElementById('ketqua').innerText = ketqua;
 }
 
-function getBMIStatus(bmi) {
+function Trangthai(bmi) {
     if (bmi < 18.5) {
         return 'Dưới chuẩn';
     } else if (bmi < 24.9) {
